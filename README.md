@@ -34,10 +34,13 @@ completa**, simulando um cenário mais próximo do mundo real.
 -   Sistema de Pagamentos
 
 ## 🚀 Como Executar
-
+-  Configure a variavel de ambiente, adicionando seu servidor na string de conexão
 ``` bash
+
 git clone https://github.com/seu-usuario/API-LocadoraVeiculos.git
+
 cd API-LocadoraVeiculos
+
 dotnet restore
 dotnet ef database update
 dotnet run
