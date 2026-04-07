@@ -19,10 +19,10 @@ completa**, simulando um cenário mais próximo do mundo real.
 
 ## 🛠️ Tecnologias Utilizadas
 
--   .NET 8\
--   C# 12\
--   Entity Framework Core 8\
--   SQL Server\
+-   .NET 8
+-   C# 12
+-   Entity Framework Core 8
+-   SQL Server
 -   Swagger
 
 
