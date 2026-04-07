@@ -1,47 +1,54 @@
-<<<<<<< HEAD
-# API-LocadoraDeVeiculos
-API completa para locadora de veículos com .NET 8, Entity Framework Core e SQL Server. Desenvolvida com injeção de dependência, arquitetura em camadas e validações de negócio
-=======
 # 🚗 API Locadora de Veículos
 
-API REST desenvolvida em .NET para gerenciamento de uma locadora de veículos, com funcionalidades completas de CRUD de clientes, veículos, locações e sistema de pagamentos.
+![.NET Version](https://img.shields.io/badge/.NET-8.0-blue) ![C#
+Version](https://img.shields.io/badge/C%23-12-purple) ![Entity
+Framework](https://img.shields.io/badge/EF%20Core-8.0-green) ![SQL
+Server](https://img.shields.io/badge/SQL%20Server-2022-red)
 
-## 📋 Índice
-
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Arquitetura](#arquitetura)
-- [Funcionalidades](#funcionalidades)
-- [Pré-requisitos](#pré-requisitos)
-- [Como Executar](#como-executar)
-- [Endpoints da API](#endpoints-da-api)
-- [Testes](#testes)
-- [Banco de Dados](#banco-de-dados)
-- [Autor](#autor)
+API REST desenvolvida em **.NET 8** para gerenciamento completo de uma
+locadora de veículos.\
+O projeto contempla operações CRUD, regras de negócio e uma arquitetura
+organizada visando escalabilidade e boas práticas.
 
 ## 🎯 Sobre o Projeto
 
-Este projeto nasceu a partir de um trabalho acadêmico sobre locadora de veículos. Decidi ir além e desenvolver uma API completa para consolidar meus conhecimentos em .NET e boas práticas de desenvolvimento back-end.
-
-**O que este projeto me ensinou:**
-- Modelagem de relacionamentos complexos
-- Implementação de regras de negócio reais
-- Código limpo e organizado
-- Testes automatizados
-- Documentação profissional
+Este projeto surgiu a partir de um trabalho acadêmico sobre uma locadora
+de veículos.\
+A proposta foi evoluir a ideia inicial e transformá-la em uma **API
+completa**, simulando um cenário mais próximo do mundo real.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **.NET 8** - Framework principal
-- **C# 12** - Linguagem de programação
-- **Entity Framework Core 8** - ORM para acesso a dados
-- **SQL Server** - Banco de dados relacional
-- **Swagger/OpenAPI** - Documentação interativa
-- **xUnit** - Testes unitários
-- **Moq** - Mocking para testes
-- **Postman** - Testes de integração
+-   .NET 8\
+-   C# 12\
+-   Entity Framework Core 8\
+-   SQL Server\
+-   Swagger
 
 ## 🏗️ Arquitetura
 
-A API foi desenvolvida seguindo princípios de **Arquitetura em Camadas** e **SOLID**:
->>>>>>> c970c2e (atualizando migrations)
+API-LocadoraVeiculos/ ├── Controllers/ ├── Services/ ├── Interfaces/ ├──
+Models/ ├── DTOs/ ├── Data/ └── Migrations/
+
+## ✨ Funcionalidades
+
+-   CRUD de Clientes\
+-   CRUD de Veículos\
+-   CRUD de Locações\
+-   Sistema de Pagamentos
+
+## 🚀 Como Executar
+
+``` bash
+git clone https://github.com/seu-usuario/API-LocadoraVeiculos.git
+cd API-LocadoraVeiculos
+dotnet restore
+dotnet ef database update
+dotnet run
+```
+
+Acesse: https://localhost:7000/swagger
+
+## 👨‍💻 Autor
+
+Vinícius Bueno
