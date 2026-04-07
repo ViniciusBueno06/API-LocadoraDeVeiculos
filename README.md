@@ -25,12 +25,8 @@ completa**, simulando um cenário mais próximo do mundo real.
 -   SQL Server\
 -   Swagger
 
-## 🏗️ Arquitetura
 
-API-LocadoraVeiculos/ ├── Controllers/ ├── Services/ ├── Interfaces/ ├──
-Models/ ├── DTOs/ ├── Data/ └── Migrations/
-
-## ✨ Funcionalidades
+##  Funcionalidades
 
 -   CRUD de Clientes\
 -   CRUD de Veículos\
