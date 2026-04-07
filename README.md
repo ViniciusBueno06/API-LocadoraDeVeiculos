@@ -43,8 +43,3 @@ dotnet ef database update
 dotnet run
 ```
 
-Acesse: https://localhost:7000/swagger
-
-## 👨‍💻 Autor
-
-Vinícius Bueno
