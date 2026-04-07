@@ -28,10 +28,9 @@ completa**, simulando um cenário mais próximo do mundo real.
 
 ##  Funcionalidades
 
--   CRUD de Clientes\
--   CRUD de Veículos\
--   CRUD de Locações\
--   Sistema de Pagamentos
+-   CRUD de Clientes
+-   CRUD de Veículos
+-   CRUD de Locações
 
 ## 🚀 Como Executar
 -  Configure a variavel de ambiente, adicionando seu servidor na string de conexão
